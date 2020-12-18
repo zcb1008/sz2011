@@ -1,0 +1,491 @@
+.layout {
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+.float_nav {
+  position: fixed;
+  margin-left: -82px;
+  width: 70px;
+  background-color: #fff;
+  z-index: 999;
+  top: 149.5px;
+  display: none;
+}
+
+.float_nav li {
+  height: 100%;
+  font-size: 12px;
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 1px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.float_nav li a {
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  color: #9f9f9f;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.float_nav li:last-of-type a {
+  border-bottom: none;
+}
+
+.float_nav li .nav-color {
+  color: red;
+}
+
+.float_nav li a:hover {
+  color: red;
+}
+
+.swiper-container {
+  max-width: 1920px;
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-container .swiper-wrapper {
+  position: absolute;
+  z-index: -1;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-container .ban-nav {
+  position: absolute;
+  z-index: 200;
+  left: 20px;
+  height: 550px;
+}
+
+.swiper-container .ban-nav .ul {
+  padding-top: 40px;
+  background-color: rgba(0, 0, 0, .5);
+  width: 176px;
+  left: 340px;
+  height: 550px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.swiper-container .ban-nav .ul>li {
+  color: #fff;
+  float: left;
+  font-size: 14px;
+  text-align: left;
+}
+
+.ban-nav .ul .ban-nav-box {
+  position: absolute;
+  top: 0;
+  height: 550px;
+  width: 758px;
+  left: 176px;
+  background-color: #fff;
+  z-index: 200;
+  border-top: 1px solid #efe7e7;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: none;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list {
+  margin: 57px 0 0 30px;
+  width: 674px;
+  float: left;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list li {
+  float: left;
+  margin: 0 0 38px 23px;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list li a {
+  display: block;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list li .dj {
+  width: 168px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list li .dj p {
+  line-height: 20px;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list li .dj .price {
+  font-size: 14px;
+  color: #ff2524;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.ban-nav .ban-nav-box .ban-cont-list li a img {
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+}
+
+.ban-nav .ul>li {
+  width: 100%;
+  float: left;
+  height: 67px;
+  line-height: 67px;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 32px;
+  padding-right: 22px;
+  box-sizing: border-box;
+}
+
+.ban-nav .ul>li:hover {
+  background-color: rgba(255, 255, 255, .9);
+  color: red;
+}
+
+.ban-nav .ul>li:hover i {
+  color: red;
+}
+
+
+.ban-nav .ul>li i {
+  font-size: 14px;
+  width: 14px;
+  margin: 0 0 0 8px;
+  color: #fff;
+  float: right
+}
+
+.ban-nav .ul>li:hover .ban-nav-box {
+  display: block;
+}
+
+.swiper-container .swiper-pagination {
+  position: absolute;
+  right: 20%;
+  bottom: 20px;
+  z-index: 400;
+}
+
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background: red;
+  opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-container .swiper-button-prev {
+  position: absolute;
+  left: 550px;
+  z-index: 100;
+}
+
+.swiper-container .swiper-button-next {
+  position: absolute;
+  right: 400px;
+  z-index: 100;
+}
+
+.swiper-pagination-bullets .swiper-pagination-white {
+  margin: 0 5px;
+}
+
+.swiper-pagination-clickable .visual {
+  width: 100%;
+  overflow: hidden;
+}
+
+.row {
+  padding: 70px 0 49px 0;
+}
+
+.row .img {
+  float: left;
+  margin-left: 13px;
+}
+
+.row .img:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.series {
+  margin-bottom: 41px;
+}
+
+.series .title {
+  margin-bottom: 24px;
+}
+
+.series .title h2 {
+  font-size: 22px;
+  font-weight: 400;
+  border-left: 4px solid #fe0000;
+  padding-left: 15px;
+  margin-right: 36px;
+  display: inline-block;
+}
+
+.series .title>a {
+  font-size: 14px;
+  margin-right: 16px;
+  display: inline-block;
+  line-height: 29px;
+}
+
+.series .title .more {
+  float: right;
+  color: red;
+  font-size: 12px;
+}
+
+.series .hot-img {
+  float: left;
+}
+
+.series .hot-img img {
+  width: 296px;
+  height: 615px;
+}
+
+.series ul {
+  float: left;
+  width: 931px;
+}
+
+.series ul li {
+  width: 296px;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+  margin: 0 0 14px 14px;
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  text-align: center;
+  transition: 0.5s all;
+}
+
+.series ul li:hover {
+  top: -8px;
+  box-shadow: 0 0 15px 5px #D9D9D9;
+}
+
+.series ul li img {
+  height: 180px;
+  width: 180px;
+  margin: 4px auto 2px;
+}
+
+.series ul li .smalltitle {
+  font-size: 14px;
+  color: #333;
+}
+
+.series ul li .dice {
+  font-size: 12px;
+  color: #9b9b9b;
+  margin: 12px auto 0;
+  height: 30px;
+  line-height: 15px;
+  overflow: hidden;
+
+}
+
+.series ul li .price {
+  font-size: 14px;
+  color: #ff2524;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.fans {
+  width: 100%;
+  padding: 20px 0 70px 0;
+}
+
+.fans ul li {
+  float: left;
+  max-width: 296px;
+  margin: 0 14px 10px 0;
+}
+
+.fans ul li:last-child {
+  margin-right: 0;
+}
+
+.fans ul li img {
+  display: block;
+  width: 296px;
+  height: 226px;
+}
+
+.fans ul li .fans-box {
+  padding: 36px 34px;
+  background-color: #f3f3f3;
+}
+
+.fans ul li .fans-title {
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.fans ul li .fans-title .fans-new {
+  font-size: 12px;
+  padding: 0 10px;
+  margin-right: 8px;
+  display: inline-block;
+  text-align: center;
+  background-color: #4b89f1;
+  vertical-align: top;
+  color: #FFF;
+}
+
+.fans ul li .fans-box p {
+  font-size: 12px;
+  line-height: 14px;
+  height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 18px;
+  color: #666;
+}
+
+.fans ul li .fans-box a {
+  font-size: 12px;
+  color: #666;
+  transition: all .3s;
+}
+
+.fans ul li .fans-box a:hover {
+  color: red;
+}
+
+.fans .fans-more {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.server {
+  background-color: #f0f0f0;
+}
+
+.server ul {
+  width: 1226px;
+  margin: 0 auto;
+  padding: 43px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.server ul li {
+  width: 25%;
+  float: left;
+  line-height: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.server ul li:nth-child(2) {
+  padding-left: 50px;
+}
+
+.server ul li:nth-child(3) {
+  padding-right: 50px;
+  text-align: right;
+}
+
+.server ul li span {
+  display: inline-block;
+  width: 40px;
+  font-size: 35px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.server ul li em {
+  font-size: 14px;
+  color: #666;
+  vertical-align: top;
+}
+
+/* .goTop {
+  position: fixed;
+  right: 30px;
+  bottom: 180px;
+  z-index: 20000;
+  width: 46px;
+}
+
+.goTop a {
+  display: block;
+  height: 54px;
+  cursor: pointer;
+  transition: all .2s;
+  border: 1px solid #ededed;
+  background-color: #FFF;
+  color: #979797;
+  text-align: center;
+}
+
+.goTop .sign {
+  height: 33px;
+  line-height: 35px;
+  font-size: 22px !important;
+}
+
+.goTop .word {
+  font-size: 10px;
+  line-height: 14px;
+  height: 14px;
+}
+
+.goTop a:hover {
+  color: red;
+}
+
+.tclActivityIcon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 20000;
+  cursor: pointer;
+}
+
+.tclActivityIcon span {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #999;
+  z-index: 2;
+
+} */

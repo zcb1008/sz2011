@@ -1,0 +1,66 @@
+.searchRes {
+  color: #666;
+  font-size: 14px;
+  width: 1226px;
+  margin: 19px auto 20px;
+}
+
+.searchRes strong,
+.searchRes em {
+  color: red;
+}
+
+.searByPri {
+  padding: 40px 50px;
+  background: #fff;
+  width: 1226px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.searByPri strong {
+  color: #333;
+  display: block;
+  float: left;
+  width: 150px;
+  line-height: 38px;
+}
+
+.priRange input {
+  border: 1px solid #999;
+  margin: 0 10px;
+  padding: 0 5px;
+  color: #666;
+  box-sizing: border-box;
+}
+
+.priRange .confirm {
+  display: inline-block;
+  text-align: center;
+  background: #fe0000;
+  color: #fff;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.priRange .confirm,
+.priRange input {
+  width: 112px;
+  height: 38px;
+  line-height: 38px;
+}
+
+.not-search {
+  background: #fff;
+  padding: 80px 0;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.not-search .container-pic {
+  width: 200px;
+  height: 250px;
+  margin: 45px auto 0;
+  position: relative;
+}

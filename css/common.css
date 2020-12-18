@@ -1,0 +1,178 @@
+body,
+html,
+p,
+span,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+input,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+a,
+img,
+textarea,
+select {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+b {
+    font-weight: normal;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    font-family: "Microsoft YaHei", "PingFang SC";
+    color: #666;
+    font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+
+
+i,
+em {
+    font-style: normal;
+}
+
+form,
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.header-box,
+.main {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.wd1228 {
+    width: 1228px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.goTop {
+    position: fixed;
+    right: 30px;
+    bottom: 180px;
+    z-index: 20000;
+    width: 46px;
+}
+
+.goTop a {
+    display: block;
+    height: 54px;
+    cursor: pointer;
+    transition: all .2s;
+    border: 1px solid #ededed;
+    background-color: #FFF;
+    color: #979797;
+    text-align: center;
+}
+
+.goTop .sign {
+    height: 33px;
+    line-height: 35px;
+    font-size: 22px !important;
+}
+
+.goTop .word {
+    font-size: 10px;
+    line-height: 14px;
+    height: 14px;
+}
+
+.goTop a:hover {
+    color: red;
+}
+
+.tclActivityIcon {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 20000;
+    cursor: pointer;
+}
+
+.tclActivityIcon span {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #999;
+    z-index: 2;
+
+}

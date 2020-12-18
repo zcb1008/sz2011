@@ -1,0 +1,83 @@
+.order {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+.order .name-title {
+  font-size: 20px;
+}
+
+.order .gocar {
+  font-size: 16px;
+  border: 1px solid red;
+  padding: 5px;
+  color: #f30;
+  box-sizing: border-box;
+}
+
+.order .gocar:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.order ul li {
+  width: 100%;
+  line-height: 50px;
+  margin-top: 14px;
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 20px;
+}
+
+.order ul li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.order ul li p {
+  display: inline-block;
+}
+
+.order ul li span {
+  float: right;
+  margin-right: 100px;
+}
+
+.order .item {
+  width: 100%;
+  color: #333;
+  line-height: 20px;
+  padding: 68px 0;
+}
+
+.order .item .text {
+  line-height: 16px;
+  padding-bottom: 12px;
+  width: 260px;
+}
+
+.order .item .text span {
+  float: right;
+  color: red;
+}
+
+.order .item .pay {
+  margin-top: 24px;
+  color: red;
+}
+
+.order .item .pay span {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.order .item .buy {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  width: 252px;
+  height: 56px;
+  line-height: 56px;
+  color: #FFF;
+  font-size: 16px;
+}
